@@ -11,7 +11,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_1ji1ga7" sourceRef="start_task" targetRef="end_task">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression"><![CDATA[${failure == "false"}]]></bpmn:conditionExpression>
     </bpmn:sequenceFlow>
-    <bpmn:serviceTask id="start_task" name="Start Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.JackTaskDelegate">
+    <bpmn:serviceTask id="start_task" name="Start Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.StartTask">
       <bpmn:extensionElements>
         <camunda:properties>
           <camunda:property />
@@ -23,11 +23,11 @@
       <bpmn:outgoing>SequenceFlow_02bpxa4</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:sequenceFlow id="SequenceFlow_18140it" sourceRef="end_task" targetRef="EndEvent_04tirq2" />
-    <bpmn:serviceTask id="end_task" name="End Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.JackTaskDelegate2">
+    <bpmn:serviceTask id="end_task" name="End Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.EndTask">
       <bpmn:incoming>SequenceFlow_1ji1ga7</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_18140it</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="handle_error" name="Handle Error" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.HandleError">
+    <bpmn:serviceTask id="handle_error" name="Handle Error" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.HandleErrorTask">
       <bpmn:incoming>SequenceFlow_02bpxa4</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_16zoxyq</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -35,12 +35,12 @@
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression"><![CDATA[${failure == "true"}]]></bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="SequenceFlow_16zoxyq" sourceRef="handle_error" targetRef="send_task" />
-    <bpmn:sendTask id="send_task" name="Send Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.JackSendTask">
+    <bpmn:sendTask id="send_task" name="Send Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.SendTask">
       <bpmn:incoming>SequenceFlow_16zoxyq</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0nvccab</bpmn:outgoing>
     </bpmn:sendTask>
     <bpmn:sequenceFlow id="SequenceFlow_0zz09rb" sourceRef="after_receive_task" targetRef="start_task" />
-    <bpmn:serviceTask id="after_receive_task" name="After Receive Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.JackAfterReceiveTask">
+    <bpmn:serviceTask id="after_receive_task" name="After Receive Task" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.AfterReceiveTask">
       <bpmn:incoming>SequenceFlow_06xd6qo</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0zz09rb</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -51,7 +51,7 @@
     <bpmn:sequenceFlow id="SequenceFlow_06xd6qo" sourceRef="receive_task" targetRef="after_receive_task" />
     <bpmn:sequenceFlow id="SequenceFlow_0nvccab" sourceRef="send_task" targetRef="Task_0e0n9wa" />
     <bpmn:sequenceFlow id="SequenceFlow_1dadis2" sourceRef="Task_0e0n9wa" targetRef="receive_task" />
-    <bpmn:serviceTask id="Task_0e0n9wa" name="Passthrough" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.PassThrough">
+    <bpmn:serviceTask id="Task_0e0n9wa" name="Passthrough" camunda:class="com.dell.cpsd.paqx.dne.service.delegates.PassThroughTask">
       <bpmn:incoming>SequenceFlow_0nvccab</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1dadis2</bpmn:outgoing>
     </bpmn:serviceTask>
@@ -113,7 +113,7 @@
         <di:waypoint xsi:type="dc:Point" x="248" y="420" />
         <di:waypoint xsi:type="dc:Point" x="377" y="419" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="267.5" y="398.5" width="90" height="12" />
+          <dc:Bounds x="268" y="399" width="90" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="SendTask_1nryjqt_di" bpmnElement="send_task">
@@ -139,21 +139,21 @@
         <di:waypoint xsi:type="dc:Point" x="504" y="315" />
         <di:waypoint xsi:type="dc:Point" x="504" y="251" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="587.5" y="294" width="90" height="12" />
+          <dc:Bounds x="588" y="294" width="90" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_0nvccab_di" bpmnElement="SequenceFlow_0nvccab">
         <di:waypoint xsi:type="dc:Point" x="477" y="419" />
         <di:waypoint xsi:type="dc:Point" x="538" y="419" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="507.5" y="398" width="0" height="12" />
+          <dc:Bounds x="463" y="398" width="90" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1dadis2_di" bpmnElement="SequenceFlow_1dadis2">
         <di:waypoint xsi:type="dc:Point" x="638" y="419" />
         <di:waypoint xsi:type="dc:Point" x="712" y="419" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="675" y="398" width="0" height="12" />
+          <dc:Bounds x="630" y="398" width="90" height="12" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="ServiceTask_07s4fse_di" bpmnElement="Task_0e0n9wa">
