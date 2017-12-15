@@ -15,8 +15,9 @@ public class StartTask implements JavaDelegate
 
         if (failure==null)
         {
-            System.out.println("**Start task...setting failure to true");
-            vars.put("failure", Boolean.TRUE);
+            boolean failureSet=Math.random() > .5 ? Boolean.TRUE:Boolean.FALSE;
+            System.out.println("**Start task...setting failure to " + failureSet);
+            vars.put("failure", failureSet );
         }
     }
 }

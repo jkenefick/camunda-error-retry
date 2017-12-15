@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96751dd4-1604-4052-a630-83a00b5c494b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/jacktest.bpmn" afterPath="$PROJECT_DIR$/src/test/resources/jacktest.bpmn" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/jacktest.bpmn" afterPath="$PROJECT_DIR$/target/test-classes/jacktest.bpmn" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleTestCase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleTestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="286">
+              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding>
                 <element signature="e#0#2027#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -55,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartTask.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StartTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="312">
+              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,12 +210,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/JackAfterReceiveTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/PassThroughTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/ConcurrentTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" />
       </list>
     </option>
   </component>
@@ -634,20 +626,11 @@
       <workItem from="1513073723289" duration="11545000" />
       <workItem from="1513248624323" duration="2376000" />
       <workItem from="1513251289744" duration="15911000" />
-      <workItem from="1513308446566" duration="840000" />
+      <workItem from="1513308446566" duration="1295000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 17h 44m 58s.xml">
-      <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 17h 48m 34s.xml">
-      <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 17h 50m 08s.xml">
-      <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 17h 55m 11s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
@@ -669,9 +652,18 @@
     <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 37m 20s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 45m 26s.xml">
+      <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 46m 19s.xml">
+      <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 47m 48s.xml">
+      <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44776000" />
+    <option name="totallyTimeSpent" value="45231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1254,22 +1246,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="286">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
+            <element signature="e#0#2027#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="312">
+          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
           <folding>
-            <element signature="e#0#2027#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
