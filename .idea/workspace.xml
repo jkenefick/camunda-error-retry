@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96751dd4-1604-4052-a630-83a00b5c494b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" afterPath="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/jacktest.bpmn" afterPath="$PROJECT_DIR$/src/test/resources/jacktest.bpmn" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jacktest.bpmn" afterPath="$PROJECT_DIR$/target/test-classes/jacktest.bpmn" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +21,8 @@
       <file leaf-file-name="SimpleTestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="704">
+              <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding>
                 <element signature="e#0#2027#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -30,80 +34,30 @@
       <file leaf-file-name="EndTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="11" column="97" lean-forward="false" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandleErrorTask.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HandleErrorTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StartTask.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+            <state relative-caret-position="242">
+              <caret line="11" column="111" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiInstanceActivityBehavior.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/camunda/bpm/camunda-engine/7.6.0/camunda-engine-7.6.0.jar!/org/camunda/bpm/engine/impl/bpmn/behavior/MultiInstanceActivityBehavior.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1936">
-              <caret line="104" column="29" lean-forward="false" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-              <folding>
-                <marker date="1512987837376" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1512987837376" expanded="false" signature="165:954" ph="..." />
-                <marker date="1512987837376" expanded="true" signature="1756:1763" ph="{}" />
-                <marker date="1512987837376" expanded="true" signature="1835:2195" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="2300:2556" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="2650:3255" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="3422:4565" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="4639:4835" ph="{...}" />
-                <marker date="1512987837376" expanded="false" signature="4875:4886" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="4962:4968" ph=" }" />
-                <marker date="1512987837376" expanded="true" signature="5040:5456" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="5538:6122" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="6177:6298" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="6369:6880" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="6981:7045" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="7135:7426" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="7521:7594" ph="{...}" />
-                <marker date="1512987837376" expanded="false" signature="7680:7691" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="7739:7745" ph=" }" />
-                <marker date="1512987837376" expanded="false" signature="7831:7842" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="7886:7892" ph=" }" />
-                <marker date="1512987837376" expanded="false" signature="7946:7957" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="7995:8001" ph=" }" />
-                <marker date="1512987837376" expanded="true" signature="8086:8161" ph="{...}" />
-                <marker date="1512987837376" expanded="false" signature="8219:8230" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="8272:8278" ph=" }" />
-                <marker date="1512987837376" expanded="true" signature="8371:8454" ph="{...}" />
-                <marker date="1512987837376" expanded="false" signature="8503:8514" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="8547:8553" ph=" }" />
-                <marker date="1512987837376" expanded="false" signature="8627:8638" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="8687:8693" ph=" }" />
-                <marker date="1512987837376" expanded="false" signature="8736:8747" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="8778:8784" ph=" }" />
-                <marker date="1512987837376" expanded="false" signature="8850:8861" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="8906:8912" ph=" }" />
-                <marker date="1512987837376" expanded="false" signature="8962:8973" ph=" { " />
-                <marker date="1512987837376" expanded="false" signature="9011:9017" ph=" }" />
-                <marker date="1512987837376" expanded="true" signature="9098:9173" ph="{...}" />
-                <marker date="1512987837376" expanded="true" signature="9186:9249" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,8 +66,20 @@
       <file leaf-file-name="SendTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="132">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/ErrorEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,7 +90,7 @@
       <file leaf-file-name="PassThroughTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/PassThroughTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="242">
               <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -181,6 +147,7 @@
       <find>failure=fa</find>
       <find>EndTask</find>
       <find>finished thre</find>
+      <find>Error</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,13 +176,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/JackTaskDelegate.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/JackAfterReceiveTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/PassThroughTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/ConcurrentTask.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/ErrorEvent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java" />
       </list>
     </option>
   </component>
@@ -233,10 +201,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="2418" />
-    <option name="height" value="1468" />
+    <option name="x" value="66" />
+    <option name="y" value="139" />
+    <option name="width" value="1546" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -254,9 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,7 +293,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -626,48 +594,48 @@
       <workItem from="1513073723289" duration="11545000" />
       <workItem from="1513248624323" duration="2376000" />
       <workItem from="1513251289744" duration="15911000" />
-      <workItem from="1513308446566" duration="1295000" />
+      <workItem from="1513308446566" duration="1427000" />
+      <workItem from="1513331088270" duration="5572000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 17h 55m 11s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 11h 47m 45s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 18h 12m 38s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 11h 49m 14s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.14 at 18h 13m 09s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 11h 49m 43s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 31m 09s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 11h 51m 49s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 33m 07s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 11h 55m 16s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 36m 11s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 12h 05m 46s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 37m 20s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 12h 15m 41s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 45m 26s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 12h 16m 39s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 46m 19s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 12h 19m 15s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 03h 47m 48s.xml">
+    <history-entry file="SimpleTestCase_shouldExecuteProcessJackTest - 2017.12.15 at 12h 20m 16s.xml">
       <configuration name="SimpleTestCase.shouldExecuteProcessJackTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45231000" />
+    <option name="totallyTimeSpent" value="50935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -681,17 +649,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662836" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42808607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42720306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26385927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,14 +750,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1202,44 +1162,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/PassThroughTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="242">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1248,8 +1174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/camunda/bpm/unittest/SimpleTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="704">
+          <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
             <element signature="e#0#2027#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -1257,13 +1183,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/AfterReceiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/StartTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="242">
+          <caret line="11" column="111" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/EndTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="97" lean-forward="false" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/SendTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/ErrorEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dell/cpsd/paqx/dne/service/delegates/HandleErrorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
