@@ -8,5 +8,6 @@ public class HandleErrorTask implements JavaDelegate
     public void execute(final DelegateExecution delegateExecution) throws Exception
     {
         System.out.println("**HandleErrorTask!");
+        System.out.println("**HandleErrorTask! Element: " + delegateExecution.getVariable("jackCollectionElement"));
     }
 }

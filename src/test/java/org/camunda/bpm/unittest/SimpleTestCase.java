@@ -10,6 +10,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package org.camunda.bpm.unittest;
 
 import org.camunda.bpm.engine.runtime.ProcessInstance;
@@ -18,23 +19,42 @@ import org.camunda.bpm.engine.test.ProcessEngineRule;
 import org.junit.Rule;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import static org.camunda.bpm.engine.test.assertions.ProcessEngineTests.runtimeService;
 
 /**
  * @author Daniel Meyer
  * @author Martin Schimak
  */
-public class SimpleTestCase {
+public class SimpleTestCase
+{
 
-  @Rule
-  public ProcessEngineRule rule = new ProcessEngineRule();
+    @Rule
+    public ProcessEngineRule rule = new ProcessEngineRule();
 
-  @Test
-  @Deployment(resources = {"jacktest.bpmn"})
-  public void shouldExecuteProcessJackTest() throws InterruptedException
-  {
-    // Given we create a new process instance
-    ProcessInstance processInstance = runtimeService().startProcessInstanceByKey("jack_process","jackBusinessKey");
-    Thread.currentThread().join();
-  }
+    @Test
+    @Deployment(resources = {"jacktest.bpmn"})
+    public void shouldExecuteProcessJackTest() throws InterruptedException
+    {
+        // Given we create a new process instance
+        Map<String, Object> variables = new HashMap<>();
+        List<Map> vars = new ArrayList<>();
+
+        Map<String, Object> map1 = new HashMap<>();
+        map1.put("message", "JackMessage1");
+        Map<String, Object> map2 = new HashMap<>();
+        map2.put("message", "JackMessage2");
+        Map<String, Object> map3 = new HashMap<>();
+        map3.put("message", "JackMessage3");
+        vars.add(map1);
+        vars.add(map2);
+        vars.add(map3);
+        variables.put("jackCollection", vars);
+        ProcessInstance processInstance = runtimeService().startProcessInstanceByKey("jack_process", "jackBusinessKey", variables);
+        Thread.currentThread().join();
+    }
 }
